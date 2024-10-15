@@ -1,0 +1,168 @@
+
+  .mainContainer{
+    padding: 24px 80px;
+  }
+  /* Header styling */
+  header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 0 80px;
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  /* Logo section */
+  .appName {
+    color: #065E14;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-right: 40px;
+  }
+  
+  /* Navigation menus */
+  .headerMenus {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex: 1;
+  }
+  
+  .menus {
+    color: #475467;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  
+  /* Select dropdown */
+  select {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    color: #475467;
+    border: none;
+    padding: 0.5rem;
+    background-color: transparent;
+  }
+  
+  /* Buttons section */
+  .headerButtons {
+    display: flex;
+    align-items: center;
+  }
+
+  .primaryBtn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+    border: 1px solid #065E14;
+    background-color: #065E14;
+    color: white;
+    padding: 10px 18px;
+    width: 125px;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  }
+  
+  /* Secondary Button */
+  .secondaryBtn {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 8px;
+    border: 1px solid #065E14;
+    background-color: white;
+    color: #065E14;
+    padding: 10px 18px;
+    width: 125px;
+    margin-right: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  }
+  
+  .homeHeader span{
+    font-size: 14px;
+    color: #475467;
+  }
+
+  .exploreBtn , .homeHeader{
+    margin-bottom: 24px;
+  }
+
+  .tab-card, .rating-card {
+    border-radius: 12px;
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.16);
+    padding: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 24px;
+  }
+  
+  .tab {
+    padding: 5px 0;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    color: #A0A0A0;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #065E14;
+    color: #065E14;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px 0;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .lands-tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 24px;
+  }
+  
+  .lands-tab {
+    padding: 5px 0;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    color: #A0A0A0;
+  }
+  
+  .lands-tab.active {
+    border-bottom: 2px solid #065E14;
+    color: #065E14;
+  }
+  
+  .lands-tab-content {
+    display: none;
+    padding: 20px 0;
+  }
+  
+  .lands-tab-content.active {
+    display: block;
+  }
