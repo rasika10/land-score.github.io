@@ -1,31 +1,38 @@
 import React from 'react'
+import { Outlet, useNavigate } from 'react-router-dom'
 
 export default function Header() {
+  const navigate = useNavigate()
   return (
-    <header>
-         <div className="logo">
-               <div className="hamburger" id="hamburger" >
+    <>
+      <header>
+        <div className="logo">
+          <div className="hamburger" id="hamburger" >
             <span></span>
             <span></span>
             <span></span>
+          </div>
+          <div className="appName">LandZ App</div>
         </div>
-        <div className="appName">LandZ App</div>
-         </div>
-     
+
         <nav className="headerMenus">
-            <select>
-                <option value="property-listings">Property Listings</option>
-            </select>
-            <span className="menus">Post Property</span>
-            <span className="menus">Blog</span>
-            <span className="menus">About</span>
-            <span className="menus">Contact</span>
+          <select>
+            <option value="property-listings" >Property Listings</option>
+          </select>
+          <span className="menus" onClick={() => navigate('/property-listings')}>Post Property</span>
+          <span className="menus">Blog</span>
+          <span className="menus">About</span>
+          <span className="menus">Contact</span>
         </nav>
 
         <div className="headerButtons">
-            <button className="secondaryBtn">Signup</button>
-            <button className="primaryBtn">Login</button>
+          <button className="secondaryBtn">Signup</button>
+          <button className="primaryBtn">Login</button>
         </div>
-    </header>
+      </header>
+      <Outlet />
+    </>
+
+
   )
 }
