@@ -22,13 +22,13 @@ export default function Testimonial() {
                             <div className='authorName'>
                                 <span>Rahul</span>
                             </div>
-                            <div class="starsContainer">
-                                <div class="stars">
-                                    <span class="star filled">★</span>
-                                    <span class="star filled">★</span>
-                                    <span class="star filled">★</span>
-                                    <span class="star">★</span>
-                                    <span class="star">★</span>
+                            <div className="starsContainer">
+                                <div className="stars">
+                                    <span className="star filled">★</span>
+                                    <span className="star filled">★</span>
+                                    <span className="star filled">★</span>
+                                    <span className="star">★</span>
+                                    <span className="star">★</span>
                                 </div>
                             </div>
                         </div>

@@ -8,19 +8,19 @@ const MapRightContent = () => {
     return (
         <>
             <div className="right lg:w-[40%] md:w-full ps-5 mt-28">
-                <div className="mt-3" onClick={() => navigate('/land')}>
+                <div className="mt-3" onClick={() => navigate('/land-profile')}>
                     <SearchCardTablet />
                 </div>
-                <div className="mt-3" onClick={() => navigate('/land')}>
+                <div className="mt-3" onClick={() => navigate('/land-profile')}>
                     <SearchCardTablet />
                 </div>
-                <div className="mt-3" onClick={() => navigate('/land')}>
+                <div className="mt-3" onClick={() => navigate('/land-profile')}>
                     <SearchCardTablet />
                 </div>
-                <div className="mt-3" onClick={() => navigate('/land')}>
+                <div className="mt-3" onClick={() => navigate('/land-profile')}>
                     <SearchCardTablet />
                 </div>
-                <div className="mt-3" onClick={() => navigate('/land')}>
+                <div className="mt-3" onClick={() => navigate('/land-profile')}>
                     <SearchCardTablet />
                 </div>
             </div>

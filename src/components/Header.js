@@ -19,7 +19,8 @@ export default function Header() {
           <select>
             <option value="property-listings" >Property Listings</option>
           </select>
-          <span className="menus" onClick={() => navigate('/property-listings')}>Post Property</span>
+          <span className="menus" onClick={() => navigate('/property-listings')}>Listings</span>
+          <span className="menus">Post Property</span>
           <span className="menus">Blog</span>
           <span className="menus">About</span>
           <span className="menus">Contact</span>
@@ -27,7 +28,12 @@ export default function Header() {
 
         <div className="headerButtons">
           <button className="secondaryBtn">Signup</button>
-          <button className="primaryBtn">Login</button>
+          <button
+            className="primaryBtn"
+            onClick={() => navigate('/login')}
+          >
+            Login
+          </button>
         </div>
       </header>
       <Outlet />

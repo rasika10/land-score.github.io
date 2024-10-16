@@ -48,7 +48,7 @@ const SearchCardTablet = () => {
                     <div className="image w-full block xl:flex">
                         {/* image container  */}
                         <div className="image relative w-full xl:w-1/2 h-full mt-2">
-                            <img src={farmland} alt="Farmland" className='h-40 rounded-sm relative w-full' onClick={() => navigate('/land')}/>
+                            <img src={farmland} alt="Farmland" className='h-40 rounded-sm relative w-full' onClick={() => navigate('/land-profile')}/>
 
                             <div className="top-container absolute top-2 flex text-xs gap-3 h-auto items-center">
                                 <div className="verified-text text-white bg-[#065E14] py-0.5 ps-2 pe-5">
@@ -63,14 +63,14 @@ const SearchCardTablet = () => {
                             </div>
                         </div>
 
-                        <div className="content px-4">
+                        <div className="content ps-4 pe-2">
                             {/* rate box  */}
                             <div className="rate pt-2">
                                 <p className=''><span className='text-[#065E14] font-bold'>5.25 Cr</span> &nbsp; | &nbsp; 1377/Sqft</p>
                             </div>
 
                             {/* data of farmland container */}
-                            <div className="farmlandData flex xl:gap-6 pt-4 font-bold flex-wrap justify-between xl:justify-start">
+                            <div className="farmlandData flex xl:gap-5 pt-4 font-bold flex-wrap justify-between xl:justify-start">
 
                                 <div className=''>
                                     <div className="farmalandArea my-2.5">

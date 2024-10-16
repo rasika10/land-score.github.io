@@ -25,51 +25,51 @@ const ListViewSearch = () => {
         <>
             {/* cards for search reasult  */}
             <div className="card">
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
-                <div className="mt-5" onClick={() => navigate('/land')}>
+                <div className="mt-5" onClick={() => navigate('/land-profile')}>
                     {isDesktop ? <FarmlandSearchCard /> : <SearchCardTablet />}
                 </div>
                 
