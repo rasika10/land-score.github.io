@@ -119,32 +119,42 @@
     margin-bottom: 24px;
   }
   
-  .offerDiv{
+  .offerDiv {
     background-color: #f9fafb;
     padding: 24px 80px;
   }
-  .offerringList{
+  
+  .offerringList {
     margin: 24px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  .offerringListItem{
+  
+  .offerringListItem {
     text-align: center;
     gap: 8px;
     display: flex;
     flex-direction: column;
+    align-items: center; 
     padding: 24px;
   }
-
-  .offerringListItemHeader{
+  
+  .offerringListItem img {
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .offerringListItemHeader {
     font-weight: 700;
   }
-
-  .offerringListItemContent{
+  
+  .offerringListItemContent {
     font-size: 14px;
     color: #a0a0a0;
+    text-align: center; 
   }
+  
   .newlyListedLandsSlider{
     margin: 32px 0;
     display: flex;
@@ -172,7 +182,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom:10px ;
+    padding:10px 0 ;
     color: #a0a0a0;
   }
 
@@ -298,7 +308,14 @@ margin-left: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 18px;
 }
+.authorName span{
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  
+}
+
   .starsContainer {
     display: inline-block;
 }

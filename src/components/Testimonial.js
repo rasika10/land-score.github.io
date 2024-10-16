@@ -19,8 +19,8 @@ export default function Testimonial() {
                     </div>
                     <div className='testimonialContent'>
                         <div className='authorNameContainer'>
-                            <div>
-                                <h2>Rahul</h2>
+                            <div className='authorName'>
+                                <span>Rahul</span>
                             </div>
                             <div class="starsContainer">
                                 <div class="stars">
