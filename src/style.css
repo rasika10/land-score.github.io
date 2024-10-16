@@ -111,58 +111,208 @@
     margin-bottom: 24px;
   }
   
-  .tabs {
+  .offerDiv{
+    background-color: #f9fafb;
+    padding: 24px 80px;
+  }
+  .offerringList{
+    margin: 24px 0;
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    margin-bottom: 24px;
+    justify-content: space-around;
   }
-  
-  .tab {
-    padding: 5px 0;
-    cursor: pointer;
-    border-bottom: 2px solid transparent;
-    color: #A0A0A0;
+  .offerringListItem{
+    text-align: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
   }
-  
-  .tab.active {
-    border-bottom: 2px solid #065E14;
-    color: #065E14;
+
+  .offerringListItemHeader{
+    font-weight: 700;
   }
-  
-  .tab-content {
-    display: none;
-    padding: 20px 0;
+
+  .offerringListItemContent{
+    font-size: 14px;
+    color: #a0a0a0;
   }
-  
-  .tab-content.active {
-    display: block;
-  }
-  
-  .lands-tabs {
+  .newlyListedLandsSlider{
+    margin: 32px 0;
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    margin-bottom: 24px;
+    justify-content: space-between;
+  }
+  .mask {
+    width: 268px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.16);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 18px;
+    background-color: #F9FAFB;
   }
   
-  .lands-tab {
-    padding: 5px 0;
+  .masked-image {
+    width: 100%;
+    height: auto;
+  }
+  .slider-card-content {
+    background-color: #F9FAFB;
+  }
+  .card-title-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom:10px ;
+    color: #a0a0a0;
+  }
+
+  .card-price{
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  .cardLocation{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 15px;
+  }
+  .rating-value {
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  
+  .card-content {
+    padding-left: 20px;
+    flex-grow: 1;
+  }
+  
+  .location-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+  .locationText{
+    align-items: center;
+    font-size: 14px;
+    color: #a0a0a0;
+  }
+  .locationIcon{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+  }
+  .location-txt {
+    padding-left: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #626262;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+    
+  .rating {
+    background-color: #FBBC05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+  }
+  
+  .star-icon {
+    font-size: 16px;
+  }
+
+  .smallPrimaryBtn {
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #065E14;
+    color: white;
+    border: 1px solid #065E14;
+    border-radius: 8px;
+    padding: 8px 12px;
     cursor: pointer;
-    border-bottom: 2px solid transparent;
-    color: #A0A0A0;
+  }
+  .star-rating{
+margin-left: 15px;
+    align-items: center;
+    padding: 5px 12px 7px 12px;
+    border-radius: 8px;
+    background-color: #FBBC05;
+  }
+
+  .arrow{
+    font-size: 42px !important;
+      border: 2px solid #A0A0A0;
+      border-radius: 50px;
+      width: 95px !important;
+      color:#A0A0A0;
+      height: 58px;
+      text-align:center; 
+      cursor: pointer;
+  }
+
+  .arrowNavigation{
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    padding-top:24px
+  }
+  .testimonialContainer{
+    margin:32px 0;
+    padding: 88px 32px;
+    border-radius: 25px;
+    background-color: #f9fafb;
+  }
+  .testimonialCard {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(17, 17, 17, 0.16);
+    padding: 40px;
+    margin-bottom: 30px;
+    width: 500px;
+    position: relative;
   }
   
-  .lands-tab.active {
-    border-bottom: 2px solid #065E14;
-    color: #065E14;
-  }
-  
-  .lands-tab-content {
-    display: none;
-    padding: 20px 0;
-  }
-  
-  .lands-tab-content.active {
-    display: block;
-  }
+.authorNameContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  .starsContainer {
+    display: inline-block;
+}
+
+.stars {
+    color: #ccc;
+    font-size: 24px;
+}
+
+.stars .filled {
+    color: #F99F19;
+}
+.testimonialImgDiv{
+  position: absolute;
+  top: -43px;
+  left:35px
+}
+.testimonialImg{
+  width: 75px;
+  border: 8px white solid;
+  border-radius: 50%;
+}
+.testimonialContent{
+  margin-top: 14px;
+}
