@@ -41,7 +41,7 @@ const FarmlandSearchCard = () => {
                   {isFav ? <HeartFilled /> : <HeartOutlined />}
                 </button>
                 <button><ShareAltOutlined /></button>
-                <button type="primary" className="bg-[#065E14] text-white btn">Contact</button>
+                <button type="primary" className="bg-[#065E14] text-white btn primaryBtn">Contact</button>
               </div>
             </div>
             {/* rate box  */}

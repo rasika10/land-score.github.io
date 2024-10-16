@@ -36,7 +36,7 @@ const SearchCardTablet = () => {
                             <button
                                 type="primary"
                                 size='small'
-                                className="bg-[#065E14] text-white btn btn-mobile-contact"
+                                className="bg-[#065E14] text-white btn btn-mobile-contact py-1 px-5 rounded-lg"
                             >
                                 Contact
                             </button>
