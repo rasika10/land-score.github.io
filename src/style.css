@@ -41,6 +41,82 @@ header {
   line-height: 24px;
   cursor: pointer;
 }
+  .tab-card, .rating-card {
+    border-radius: 12px;
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.16);
+    padding: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+  }
+  
+  .offerDiv {
+    background-color: #f9fafb;
+    padding: 24px 80px;
+  }
+  
+  .offerringList {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .offerringListItem {
+    text-align: center;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 24px;
+  }
+  
+  .offerringListItem img {
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .offerringListItemHeader {
+    font-weight: 700;
+  }
+  
+  .offerringListItemContent {
+    font-size: 14px;
+    color: #a0a0a0;
+    text-align: center; 
+  }
+  
+  .newlyListedLandsSlider{
+    margin: 32px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mask {
+    width: 290px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 8px rgba(17, 17, 17, 0.16);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 18px;
+    background-color: #F9FAFB;
+  }
+  
+  .masked-image {
+    width: 100%;
+    height: auto;
+  }
+  .slider-card-content {
+    background-color: #F9FAFB;
+  }
+  .card-title-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px 0 ;
+    color: #a0a0a0;
+  }
 
 /* Select dropdown */
 select {
