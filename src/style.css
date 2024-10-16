@@ -91,14 +91,22 @@
     text-transform: capitalize;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   }
-  
-  .homeHeader span{
+  .largeHeading span{
+    font-size: 32px !important;
+    font-weight: 700 !important;
+  }
+  .smallHeading span{
     font-size: 14px;
     color: #475467;
+  }
+  .largeHeading, .smallHeading{
+    padding-bottom: 8px;
+
   }
 
   .exploreBtn , .homeHeader{
     margin-bottom: 24px;
+    margin-top: 24px;
   }
 
   .tab-card, .rating-card {

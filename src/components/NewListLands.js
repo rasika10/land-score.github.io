@@ -35,9 +35,14 @@ export default function NewListLands() {
             <div className='mainContainer'>
                 <div>
                     <div className=''>
-                        <h1>Newly Listed Lands</h1>
-                        <span>Explore the Latest Additions to Our Land Portfolio</span>
-
+                        <div>
+                            <div className='largeHeading'>
+                                <span >Newly Listed Lands</span>
+                            </div>
+                            <div className='SmallHeading'>
+                                <span >Explore the Latest Additions to Our Land Portfolio</span>
+                            </div>
+                        </div>
                         <div className='newlyListedLandsSlider'>
                             {displayedCards.map(() =>
                                 <div className="mask">

@@ -3,10 +3,15 @@ import testimonialImg from "../images/testimonial.png"
 export default function Testimonial() {
     return (
         <div className='mainContainer'>
-            <div>
-                <h1>What people say about us</h1>
-                <span>Hear From Our Satisfied Clients: Real Stories, Real Success, Real Estate Excellence</span>
-            </div>
+              <div>
+          <div className='largeHeading'>
+            <span >What people say about us</span>
+          </div>
+          <div className='SmallHeading'>
+            <span >Hear From Our Satisfied Clients: Real Stories, Real Success, Real Estate Excellence</span>
+          </div>
+        </div>
+ 
             <div className='testimonialContainer'>
                 <div className='testimonialCard'>
                     <div className='testimonialImgDiv'>

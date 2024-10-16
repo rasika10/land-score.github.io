@@ -13,12 +13,17 @@ export default function Home() {
     <>
 
       <div className='mainContainer'>
-
-        <div className='homeHeader'>
-          <h1>Embark on Your Land Journey:<br />
-            Uncover Your Ideal Plot</h1>
-          <span>Explore, Purchase, and Sell with Effortless Ease</span>
+        <div>
+          <div className='largeHeading'>
+            <span >Embark on Your Land Journey:<br />
+              Uncover Your Ideal Plot</span>
+          </div>
+          <div className='SmallHeading'>
+            <span >Explore, Purchase, and Sell with Effortless Ease</span>
+          </div>
         </div>
+
+
         <div>
           <button className='primaryBtn exploreBtn'>Explore</button>
         </div>
@@ -31,11 +36,17 @@ export default function Home() {
 
       {/* what we offer section */}
       <div className='offerDiv'>
+
+    
         <div>
-          <h1>What we offer</h1>
-          <span>
+        <div className='largeHeading'> 
+          <span>What we offer</span>
+          </div>
+          <div className='SmallHeading'> 
+            <span>
             Discover What Sets Us Apart: Your Premier Destination for Land Buying and Selling
           </span>
+          </div>
         </div>
         <div className='offerringList'>
           <div className='offerringListItem'>
@@ -84,7 +95,7 @@ export default function Home() {
 
       <NewListLands />
 
-<Testimonial/>
+      <Testimonial />
 
     </>
   )
