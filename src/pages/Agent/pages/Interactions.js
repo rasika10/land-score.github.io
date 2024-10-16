@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function AgentDashboard() {
+export default function Interactions() {
   return (
     <div>
       
