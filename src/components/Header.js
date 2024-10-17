@@ -27,7 +27,12 @@ export default function Header() {
         </nav>
 
         <div className="headerButtons">
-          <button className="secondaryBtn">Signup</button>
+          <button 
+          className="secondaryBtn"
+          onClick={() => navigate('/signup')}
+          >
+            Signup
+            </button>
           <button
             className="primaryBtn"
             onClick={() => navigate('/login')}

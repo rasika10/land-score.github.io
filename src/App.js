@@ -8,6 +8,8 @@ import Login from "./pages/Login";
 import ForgotPassword from "./pages/admin/components/ForgotPassword";
 import LoginForm from "./pages/admin/components/LoginForm";
 import OTPVerification from "./pages/admin/components/OTPVerification";
+import ResetPassword from "./pages/admin/components/ResetPassword";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <Route path="/login" element={<LoginForm />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/otp-verification" element={<OTPVerification />} />
+            <Route path='/reset-password' element={<ResetPassword />} />
+            <Route path="/signup" element={<Signup />} />
           </Route>
         </Route>
       </Routes>

@@ -29,7 +29,7 @@ const OTPVerification = () => {
                     <button
                         type="submit"
                         className="login-button"
-                        onClick={() => navigate('/otp-verification')}
+                        onClick={() => navigate('/reset-password')}
                     >
                         Continue
                     </button>

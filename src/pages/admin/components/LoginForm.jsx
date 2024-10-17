@@ -1,9 +1,7 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
 
 const LoginForm = () => {
-    const navigate = useNavigate();
-
     return (
         <aside className='login-form-data'>
             <h1>Welcome Back!</h1>
@@ -21,7 +19,8 @@ const LoginForm = () => {
                         <input type="checkbox" id="terms" className='terms' />
                         <label htmlFor="terms">I agree to the <a href="#">Terms & Policy</a></label>
                     </div>
-                    <a href="/forgot-password" onClick={() => navigate('/forgot-password')} className="forgot-password">Forgot Password?</a>
+                    <Link to="/forgot-password" className="forgot-password">Forgot Password?</Link>
+                    
                 </div>
 
                 <button type="submit" className="login-button">Login</button>
@@ -31,7 +30,7 @@ const LoginForm = () => {
                     <button className="social-btn apple"> <img src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000" alt="apple logo" /> Login with Apple</button>
                 </div>
 
-                <p className="signup-text">Don't have an account? <a href="#">Sign Up</a></p>
+                <p className="signup-text">Don't have an account? <Link to="/signup">Sign Up</Link></p>
             </form>
         </aside>
     )
