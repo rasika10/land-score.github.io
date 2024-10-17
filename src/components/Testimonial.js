@@ -7,7 +7,7 @@ export default function Testimonial() {
           <div className='largeHeading'>
             <span >What people say about us</span>
           </div>
-          <div className='SmallHeading'>
+          <div className='smallHeading'>
             <span >Hear From Our Satisfied Clients: Real Stories, Real Success, Real Estate Excellence</span>
           </div>
         </div>
@@ -22,13 +22,13 @@ export default function Testimonial() {
                             <div>
                                 <h2>Rahul</h2>
                             </div>
-                            <div class="starsContainer">
-                                <div class="stars">
-                                    <span class="star filled">★</span>
-                                    <span class="star filled">★</span>
-                                    <span class="star filled">★</span>
-                                    <span class="star">★</span>
-                                    <span class="star">★</span>
+                            <div className="starsContainer">
+                                <div className="stars">
+                                    <span className="star filled">★</span>
+                                    <span className="star filled">★</span>
+                                    <span className="star filled">★</span>
+                                    <span className="star">★</span>
+                                    <span className="star">★</span>
                                 </div>
                             </div>
                         </div>

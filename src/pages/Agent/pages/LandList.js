@@ -16,21 +16,21 @@ export default function LandList() {
                 <div className='mediumHeading'>
                     <span>Land Listing</span>
                 </div>
-                <div className='SmallHeading'>
+                <div className='smallHeading'>
                     <span>Easily Manage, Track, and Update Your Listings for Maximum Exposure</span>
                 </div>
             </div>    
 
             <div>
-            <button class="blackBtn">+ Add New Listing</button>
+            <button className="blackBtn">+ Add New Listing</button>
             </div>
             </div>
             
 
-            <div class="search-filter-container" style={{ position: "relative" }}>
-                <div class="search-input-container">
-                    <input type="text" id="searchInput" placeholder="Search" class="search-input" />
-                    <div class="search-icon">
+            <div className="search-filter-container" style={{ position: "relative" }}>
+                <div className="search-input-container">
+                    <input type="text" id="searchInput" placeholder="Search" className="search-input" />
+                    <div className="search-icon">
                         <img src={searchIcon} alt='' />
                     </div>
 
@@ -46,57 +46,57 @@ export default function LandList() {
 
             </div>
 
-            <div class="card-container" onclick="handleCardClick('pages/view-land.html')">
-                <div class="card">
-                    <div class="card-image">
+            <div className="card-container" onclick="handleCardClick('pages/view-land.html')">
+                <div className="card">
+                    <div className="card-image">
                         <img src={landIcon} alt="land" width="240px" />
-                        <div class="labels">
-                            <div class="label-shape"><span class="verify-txt">
+                        <div className="labels">
+                            <div className="label-shape"><span className="verify-txt">
                                 Verified
                             </span></div>
-                            <div class="rating">
-                                <span class="star-icon">★</span>
-                                <span class="rating-value">4.0</span>
+                            <div className="rating">
+                                <span className="star-icon">★</span>
+                                <span className="rating-value">4.0</span>
                             </div>
                         </div>
                     </div>
-                    <div class="card-content">
-                        <div class="location-div ">
-                            <div class="location-info">
+                    <div className="card-content">
+                        <div className="location-div ">
+                            <div className="location-info">
                                 <img src={locIcon} alt="Location" width="18px" />
-                                <p class="location-txt">Srisailam Highway, Hyderabad</p>
+                                <p className="location-txt">Srisailam Highway, Hyderabad</p>
                             </div>
 
-                            <div class="card-actions">
-                                <button class="wish-btn"><img src={wishIcon} alt='wish-btn' /></button>
-                                <button class="share-btn"><img src={shareIcon} alt='share-btn' /></button>
-                                <button class="contact-btn">Contact</button>
+                            <div className="card-actions">
+                                <button className="wish-btn"><img src={wishIcon} alt='wish-btn' /></button>
+                                <button className="share-btn"><img src={shareIcon} alt='share-btn' /></button>
+                                <button className="contact-btn">Contact</button>
                             </div>
                         </div>
 
-                        <div class="price-info">
-                            <p class="price">5.25 Cr </p>
-                            <p class="price-per-sqft"> | 1377/Sqft</p>
+                        <div className="price-info">
+                            <p className="price">5.25 Cr </p>
+                            <p className="price-per-sqft"> | 1377/Sqft</p>
                         </div>
-                        <div class="attributes-row">
-                            <div class="attribute">
-                                <p class="attributes">AREA</p>
-                                <p class="attr-value">1503 Sqft</p>
+                        <div className="attributes-row">
+                            <div className="attribute">
+                                <p className="attributes">AREA</p>
+                                <p className="attr-value">1503 Sqft</p>
                             </div>
-                            <div class="attribute">
-                                <p class="attributes">ROAD DISTANCE</p>
-                                <p class="attr-value">1Km</p>
+                            <div className="attribute">
+                                <p className="attributes">ROAD DISTANCE</p>
+                                <p className="attr-value">1Km</p>
                             </div>
-                            <div class="attribute">
-                                <p class="attributes">SOIL TYPE</p>
-                                <p class="attr-value">Black Soil</p>
+                            <div className="attribute">
+                                <p className="attributes">SOIL TYPE</p>
+                                <p className="attr-value">Black Soil</p>
                             </div>
-                            <div class="attribute">
-                                <p class="attributes">AVAILABILITY</p>
-                                <p class="attr-value">Immediate</p>
+                            <div className="attribute">
+                                <p className="attributes">AVAILABILITY</p>
+                                <p className="attr-value">Immediate</p>
                             </div>
                         </div>
-                        <div class="trending-info">
+                        <div className="trending-info">
                             <img src={tradingIcon} alt="Trending" />
                             <p>Getting high demand than other properties in the same location</p>
                         </div>

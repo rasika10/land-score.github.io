@@ -7,7 +7,7 @@ export default function PropertyListing() {
           <div className='mediumHeading'>
             <span >Property Listing</span>
           </div>
-          <div className='SmallHeading'>
+          <div className='smallHeading'>
             <span >Easily Manage, Track, and Update Your Listings for Maximum Exposure</span>
           </div>
         </div>

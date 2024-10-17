@@ -40,7 +40,7 @@ const PropertyListings = () => {
 
                     <div className="search-result flex justify-between mt-5 h-auto items-center">
                         <div className="result-found font-bold">
-                            {filter == "list" ? "40 results found" : "12 results found"}
+                            {filter === "list" ? "40 results found" : "12 results found"}
                         </div>
                         {/* 
                 <div className="filter-option">
@@ -85,11 +85,11 @@ const PropertyListings = () => {
 
                     </div>
 
-                    {filter == "list" ? <ListViewSearch /> : <MapViewSearch />}
+                    {filter === "list" ? <ListViewSearch /> : <MapViewSearch />}
                 </div>
 
                 {/* right content  */}
-                {filter == "list" ? <ListRightContent /> : <MapRightContent />}
+                {filter === "list" ? <ListRightContent /> : <MapRightContent />}
             </div>
         </>
     )

@@ -30,3 +30,74 @@ export const WHY_CHOOSE_OUR_APP = [
         description: "Benefit from user feedback and reviews to gauge property satisfaction and reliability"
     },
 ]
+
+
+
+export const SUBSCRIPTION_PLANS = [
+    {
+        plan: "basic",
+        price: 5,
+        planDetails: [
+            {
+                id: 1,
+                detail: "List up to 10 properties"
+            },
+            {
+                id: 2,
+                detail: "Email support"
+            },
+            {
+                id: 3,
+                detail: "Lead Management System"
+            },
+            {
+                id: 4,
+                detail: "Basic analytics and reporting"
+            },
+        ]
+    },
+    {
+        plan: "pro",
+        price: 10,
+        planDetails: [
+            {
+                id: 1,
+                detail: "List up to 50 properties"
+            },
+            {
+                id: 2,
+                detail: "Email support"
+            },
+            {
+                id: 3,
+                detail: "Lead Management System"
+            },
+            {
+                id: 4,
+                detail: "Advanced analytics and reporting"
+            },
+        ]
+    },
+    {
+        plan: "premium",
+        price: 30,
+        planDetails: [
+            {
+                id: 1,
+                detail: "List unlimited properties"
+            },
+            {
+                id: 2,
+                detail: "Email support"
+            },
+            {
+                id: 3,
+                detail: "Lead Management System"
+            },
+            {
+                id: 4,
+                detail: "Comprehensive analytics and reporting"
+            },
+        ]
+    },
+]

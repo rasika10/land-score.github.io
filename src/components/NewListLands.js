@@ -39,7 +39,7 @@ export default function NewListLands() {
                             <div className='largeHeading'>
                                 <span >Newly Listed Lands</span>
                             </div>
-                            <div className='SmallHeading'>
+                            <div className='smallHeading'>
                                 <span >Explore the Latest Additions to Our Land Portfolio</span>
                             </div>
                         </div>

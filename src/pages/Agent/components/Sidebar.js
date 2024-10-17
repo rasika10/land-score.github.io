@@ -79,12 +79,12 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="sidebar-item">
-            <Link to="/settings" className="sidebar-link">
+            <Link to="./subscription" className="sidebar-link">
               <DollarOutlined className='sidebar-icon' /> Subscription
             </Link>
           </li>
           <li className="sidebar-item">
-            <Link to="/messages" className="sidebar-link">
+            <Link to="./legal-support" className="sidebar-link">
               <LikeOutlined className='sidebar-icon' /> Legal Advise & Support
             </Link>
           </li>

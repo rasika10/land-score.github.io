@@ -18,7 +18,7 @@ export default function Interactions() {
           <div className='mediumHeading'>
             <span >Interactions</span>
           </div>
-          <div className='SmallHeading'>
+          <div className='smallHeading'>
             <span >Access and track all your property-related interactions in one convenient place.</span>
           </div>
         </div>

@@ -6,6 +6,8 @@ import LandList from './LandList';
 import PropertyListing from './PropertyListing';
 import Home from './Home';
 import Interactions from "./Interactions";
+import Subscription from './Subscription';
+import LegalSupport from './LegalSupport';
 
 export default function AgentDashboard() {
   return (
@@ -16,9 +18,11 @@ export default function AgentDashboard() {
           <Route path="/" element={<Home />} />
           <Route path="overview" element={<Home />} />
           <Route path="property-listing" element={<PropertyListing />} />
-          <Route path="land-listing" element={<LandList/>} />
-          <Route path="interactions" element={<Interactions/>} />
+          <Route path="land-listing" element={<LandList />} />
+          <Route path="interactions" element={<Interactions />} />
           <Route path="track-verification-status" element={<div>Track Verification Status</div>} />
+          <Route path="subscription" element={<Subscription />} />
+          <Route path='legal-support' element={<LegalSupport />} />
         </Routes>
       </div>
     </div>

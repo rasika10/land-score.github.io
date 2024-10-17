@@ -1,6 +1,4 @@
 import React from 'react'
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 export default function Home() {
   const percentage = 80;
   return (
@@ -9,7 +7,7 @@ export default function Home() {
         <div className='mediumHeading'>
           <span >Welcome Sarah, </span>
         </div>
-        <div className='SmallHeading'>
+        <div className='smallHeading'>
           <span >Explore, engage, and manage your land journey effortlessly.</span>
         </div>
         {/* <div style={{ width: '100px', height: '100px' }}>
