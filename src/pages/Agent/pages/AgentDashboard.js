@@ -5,6 +5,7 @@ import "../agent.css";
 import LandList from './LandList';
 import PropertyListing from './PropertyListing';
 import Home from './Home';
+import Interactions from "./Interactions";
 
 export default function AgentDashboard() {
   return (
@@ -16,7 +17,7 @@ export default function AgentDashboard() {
           <Route path="overview" element={<Home />} />
           <Route path="property-listing" element={<PropertyListing />} />
           <Route path="land-listing" element={<LandList/>} />
-          <Route path="messages" element={<div>Messages</div>} />
+          <Route path="interactions" element={<Interactions/>} />
           <Route path="track-verification-status" element={<div>Track Verification Status</div>} />
         </Routes>
       </div>
