@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 const NotificationSettings = () => {
-
     const [settings, setSettings] = useState({
         enableOrDisableAllNotifications: true,
         alertForNewListings: true,
@@ -15,15 +14,55 @@ const NotificationSettings = () => {
 
     const [deliveryMethod, setDeliveryMethod] = useState('sms');
 
-    const handleToggle = (setting) => {
-        setSettings(prev => ({ ...prev, [setting]: !prev[setting] }));
-    };
+    useEffect(() => {
+        if (settings.enableOrDisableAllNotifications) {
+            //setting all other settings to true
+            setSettings(prev => ({
+                ...prev,
+                alertForNewListings: true,
+                updatesOnSavedProperties: true,
+                notificationForPriceChangesOrStatusUpdates: true,
+                newLeadAlerts: true,
+                specialOffersAndDiscounts: true,
+                newsletterSubscriptions: true,
+                subscriptionRenewalAlerts: true,
+            }));
+        } else {
+            //setting all other settings to false
+            setSettings(prev => ({
+                ...prev,
+                alertForNewListings: false,
+                updatesOnSavedProperties: false,
+                notificationForPriceChangesOrStatusUpdates: false,
+                newLeadAlerts: false,
+                specialOffersAndDiscounts: false,
+                newsletterSubscriptions: false,
+                subscriptionRenewalAlerts: false,
+            }));
+        }
+    }, [settings.enableOrDisableAllNotifications]);
 
+    const handleToggle = (setting) => {
+
+        if (setting === 'enableOrDisableAllNotifications') {
+            setSettings(prev => ({
+                ...prev,
+                [setting]: !prev[setting],
+            }));
+        } else {
+
+            setSettings(prev => ({
+                ...prev,
+                [setting]: !prev[setting],
+
+                enableOrDisableAllNotifications: false,
+            }));
+        }
+    };
 
     const formatLabel = (key) => {
         return key.split(/(?=[A-Z])/).join(' ').replace(/^\w/, c => c.toUpperCase());
     };
-
 
     return (
         <section className='account-settings-section notification-settings-section'>
@@ -32,7 +71,7 @@ const NotificationSettings = () => {
                     <span>Profile & Settings / <span className='breadcrumb-active-page'>Notification Settings</span></span>
                 </div>
                 <div className='mediumHeading'>
-                    <span >Profile </span>
+                    <span>Profile</span>
                 </div>
             </div>
 
@@ -75,7 +114,7 @@ const NotificationSettings = () => {
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default NotificationSettings
+export default NotificationSettings;
