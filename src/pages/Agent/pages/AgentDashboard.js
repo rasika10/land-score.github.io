@@ -8,6 +8,9 @@ import Home from './Home';
 import Interactions from "./Interactions";
 import Subscription from './Subscription';
 import LegalSupport from './LegalSupport';
+import AccountSettings from '../Profile/Pages/AccountSettings';
+import CommPreference from '../Profile/Pages/CommPreference';
+import NotificationSettings from '../Profile/Pages/NotificationSettings';
 
 export default function AgentDashboard() {
   return (
@@ -23,6 +26,7 @@ export default function AgentDashboard() {
           <Route path="track-verification-status" element={<div>Track Verification Status</div>} />
           <Route path="subscription" element={<Subscription />} />
           <Route path='legal-support' element={<LegalSupport />} />
+          <Route path="/account-settings" element={<NotificationSettings />} />
         </Routes>
       </div>
     </div>

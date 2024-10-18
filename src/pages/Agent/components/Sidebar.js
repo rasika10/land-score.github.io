@@ -89,7 +89,7 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="sidebar-item">
-            <Link to="/messages" className="sidebar-link">
+            <Link to="./account-settings" className="sidebar-link">
               <SettingOutlined className='sidebar-icon' /> Profile Settings
             </Link>
           </li>
