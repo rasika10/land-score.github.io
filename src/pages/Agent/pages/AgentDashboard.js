@@ -8,6 +8,7 @@ import Home from './Home';
 import Interactions from "./Interactions";
 import Subscription from './Subscription';
 import LegalSupport from './LegalSupport';
+import Leads from './Leads';
 
 export default function AgentDashboard() {
   return (
@@ -23,6 +24,9 @@ export default function AgentDashboard() {
           <Route path="track-verification-status" element={<div>Track Verification Status</div>} />
           <Route path="subscription" element={<Subscription />} />
           <Route path='legal-support' element={<LegalSupport />} />
+          <Route path="land-listing" element={<LandList/>} />
+          <Route path="interactions" element={<Interactions/>} />
+          <Route path="leads" element={<Leads/>} />
         </Routes>
       </div>
     </div>

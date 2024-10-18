@@ -14,7 +14,7 @@ export default function Interactions() {
 
   return (
     <div>
-         <div>
+         <div className='headContainer'>
           <div className='mediumHeading'>
             <span >Interactions</span>
           </div>

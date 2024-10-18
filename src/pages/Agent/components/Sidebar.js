@@ -74,7 +74,7 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="sidebar-item">
-            <Link to="/settings" className="sidebar-link">
+            <Link to="./leads" className="sidebar-link">
               <UserOutlined className='sidebar-icon' /> Leads
             </Link>
           </li>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function PropertyListing() {
   return (
     <div>
-          <div>
+          <div className='headContainer'>
           <div className='mediumHeading'>
             <span >Property Listing</span>
           </div>
