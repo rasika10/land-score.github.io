@@ -3,7 +3,7 @@ export default function Home() {
   const percentage = 80;
   return (
     <div >
-      <div>
+      <div className='headContainer'>
         <div className='mediumHeading'>
           <span >Welcome Sarah, </span>
         </div>

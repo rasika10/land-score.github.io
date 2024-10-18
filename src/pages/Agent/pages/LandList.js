@@ -10,7 +10,8 @@ import landIcon from "../images/land.png"
 
 export default function LandList() {
     return (
-        <div>
+        <div className='headContainer'>
+            <div className='landListHead'>
             <div className='listingHeader'>
             <div>
                 <div className='mediumHeading'>
@@ -25,6 +26,8 @@ export default function LandList() {
             <button className="blackBtn">+ Add New Listing</button>
             </div>
             </div>
+            </div>
+         
             
 
             <div className="search-filter-container" style={{ position: "relative" }}>

@@ -11,6 +11,7 @@ import LegalSupport from './LegalSupport';
 import AccountSettings from '../Profile/Pages/AccountSettings';
 import CommPreference from '../Profile/Pages/CommPreference';
 import NotificationSettings from '../Profile/Pages/NotificationSettings';
+import Leads from './Leads';
 
 export default function AgentDashboard() {
   return (
@@ -27,6 +28,9 @@ export default function AgentDashboard() {
           <Route path="subscription" element={<Subscription />} />
           <Route path='legal-support' element={<LegalSupport />} />
           <Route path="/account-settings" element={<NotificationSettings />} />
+          <Route path="land-listing" element={<LandList/>} />
+          <Route path="interactions" element={<Interactions/>} />
+          <Route path="leads" element={<Leads/>} />
         </Routes>
       </div>
     </div>
